@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Downer",
+	"version": "1.0",
+	
+	"description": "Downloads vr porn from index page.",
+	
+	"icons": {
+		"48": "icons/download.svg"
+	},
+	
+	"background": {
+		"scripts": ["downer.js"]
+	},
+	
+	"browser_action": {
+		"default_icon": {
+			"icons/download.svg",
+		},
+		"default_title": "Downer"
+	}
+}
